@@ -1,7 +1,4 @@
-{% extends "base.html" %} {% block content %} {% for number in list_of_numbers
-%}
-<p>{{ number }}</p>
-{% endfor %}
+{% extends "base.html" %} {% block content %} {{ company[1]["name"] }}
 
 <h2>{{ page_title }}</h2>
 <p>
@@ -16,6 +13,7 @@
   considered thirteen to be an unlucky number, and as Gandalf had planned to
   leave on other business, welcomed a fourteenth to fill into their party.
 </p>
+
 <div class="row featurette">
   <div class="col-md-7">
     <h3>Thorin Oakenshield</h3>
